@@ -25,7 +25,7 @@ public class Lutador {
 
   private Integer concentracoesRealizadas;
 
-  private Boolean vivo;
+  private boolean vivo;
 
   public Integer getId() {
     return id;
@@ -67,11 +67,11 @@ public class Lutador {
     this.concentracoesRealizadas = concentracoesRealizadas;
   }
 
-  public Boolean getVivo() {
+  public boolean isVivo() {
     return vivo;
   }
 
-  public void setVivo(Boolean vivo) {
+  public void setVivo(boolean vivo) {
     this.vivo = vivo;
   }
 }

@@ -25,4 +25,8 @@ public class LutadorController {
   @GetMapping
   public List<Lutador> getLutador(){ return repository.findAll(); }
 
+  @GetMapping("/contagem-vivos")
+  public List<Lutador> getVivos(){
+    return repository.findByVidaTrue();
+  }
 }
